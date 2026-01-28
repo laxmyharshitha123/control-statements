@@ -1,0 +1,32 @@
+# there are 3 control statements
+1.if:*it is used when we have to check only one condition
+syntax : if(conditionn)
+example : int a = 5;
+          if(a>0){
+          print("positive")
+}
+2.if-else : it is used when there is 2 conditions
+syntax : if (condition){
+          ///
+          }else{
+example : int a = 5;
+          if(a>0){
+          print("positive")
+         }else{
+          print("negative")
+         }
+3.nested if: an if inside another if
+syntax : if(condition1){
+         if(condition 2)
+example : int a = 1,b = 2,c = 3;
+          if(a>c){
+            if(a>b)
+           printf("a is largest");
+        else{
+         print("c is largest");
+      }else{
+         if(b>c)
+           printf("b is largest");
+        else
+            printf("c is largest");
+         
